@@ -30,7 +30,7 @@ from fastapi.responses import FileResponse, PlainTextResponse
 # ---------------------------------------------------------------- config
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 AIPIPE_TOKEN = os.environ.get("AIPIPE_TOKEN", "")
-MODEL = os.environ.get("MODEL", "qwen-3.6-27b")
+MODEL = os.environ.get("MODEL", "gpt-oss-120b")
 MODEL_BASE_URL = os.environ.get("MODEL_BASE_URL", "https://aipipe.org/openai/v1")
 BASE_URL = os.environ.get("BASE_URL", "http://localhost:8000").rstrip("/")
 LOG_PATH = os.environ.get("LOG_PATH", "/tmp/run.jsonl")
